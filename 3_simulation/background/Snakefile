@@ -254,8 +254,8 @@ rule annotateAFs:
 		exac="../../data/populationDBs/ExAC.r1.sites.vep.vcf.gz",
 		uk="../../data/populationDBs/UK10K_COHORT.20160215.sites.vcf.gz",
 		kg="../../data/populationDBs/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5b.20130502.sites.vcf.gz",
-		caddsnv="../../data/pathogenicityScores/whole_genome_SNVs.tsv.gz",
-		caddindel="../../data/pathogenicityScores/InDels.tsv.gz",
+		caddsnv="../../data/pathogenicityScores/cadd_snv_exon.tsv.gz",
+		caddindel="../../data/pathogenicityScores/cadd_indel_exon.tsv.gz",
 		ref="../../data/referenceGenome/data/human_g1k_v37.fasta"
 	output:
 		"results/{background}/{background}.refSeq105.AF.vcf.gz"
